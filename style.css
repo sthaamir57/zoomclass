@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.opacity-0 {
+  opacity: 0.2;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.landing {
+  height: 90vh;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.85rem;
+}
+
+.left {
+  position: relative;
+}
+
+.college-text {
+  position: absolute;
+  top: 40%;
+  left: -1.9rem;
+  transform: rotate(270deg);
+  color: #0b345a;
+}
+
+.left .info {
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.faculty {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.sem {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+  color: #0b345a;
+  line-height: 0.85rem;
+}
+
+.right {
+  border-radius: 0.5rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: -2px 6px 15px -5px #128aa893;
+}
+
+.day ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.last-two .day ul {
+  align-items: flex-end;
+}
+
+.day ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: #11a8ce93;
+  margin: 0.2rem;
+}
+
+.subjects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 4rem;
+}
+
+.last-subjects {
+  align-items: flex-end;
+}
+
+.subjects li {
+  margin: 0rem 0.2rem;
+  overflow: hidden;
+}
+
+.subjects li a {
+  font-size: 2rem;
+  color: #085886;
+  position: relative;
+  transition-property: all;
+  transition-duration: 650ms;
+}
+
+.subjects li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.14rem;
+  width: 100%;
+  background-color: #085886;
+  transform: translateX(-150%);
+  transition: all 0.5s ease;
+}
+
+.subjects li a:hover::after {
+  transform: translateX(0);
+}
+
+.day ul .opacity-1 {
+  color: #085886;
+}
+
+@media (max-width: 800px) {
+  .left {
+    display: none;
+  }
+}
