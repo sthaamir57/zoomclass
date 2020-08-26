@@ -129,6 +129,10 @@ li {
   transition: all 0.5s ease;
 }
 
+.last-subjects li a::after {
+  transform: translateX(150%);
+}
+
 .subjects li a:hover::after {
   transform: translateX(0);
 }
