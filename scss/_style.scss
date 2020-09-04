@@ -2,7 +2,7 @@
   /* light-scheme */
   --subject-color-light: #085886;
   --day-color-light: #11a8ce93;
-  --faculty-color-light: #fff;
+  --faculty-color-light: #161616;
   --college-color-light: #0b345a;
   --box-shadow-light: #128aa893;
 
@@ -193,7 +193,7 @@ li {
     background-color: var(--subject-color-light);
   }
 
-  .day ul li .day-target {
+  .day ul li {
     color: var(--day-color-light);
   }
 
