@@ -55,18 +55,3 @@ function subLast(day) {
   lastThreeDays.children[day - 3].classList.replace("opacity-0", "opacity-1");
   lastThreeDays.children[day - 3].children[1].innerHTML = `${element}`;
 }
-// const ul = document.createElement("ul");
-// const li1 = document.createElement("li");
-// const li2 = document.createElement("li");
-// const li3 = document.createElement("li");
-// const a = document.createElement("a");
-
-// ul.classList.add("subjects");
-
-// links.forEach(function (link, index) {
-//   a.setAttribute("href", link);
-//   a.innerText = `${subjects[index]}`;
-//   `li${index}`.appendChild(a);
-//   ul.appendChild(`li${index}`);
-//   console.log(index);
-// });
