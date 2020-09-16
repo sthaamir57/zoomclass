@@ -21,30 +21,6 @@ const links = [
 ];
 const hide1 = document.querySelector(".hide-1");
 const hide2 = document.querySelector(".hide-2");
-const cursor = document.querySelector(".cursor");
-
-document.body.addEventListener("mousemove", cursorStart);
-// body.addEventListener('mouseleave', cursorStop);
-
-function cursorStart(e) {
-  // console.log(e);
-  console.log(`X = ${e.pageX}
-  Y = ${e.pageY}`);
-
-  // cursor.style.top = `${e.pageY} px`;
-  cursor.style.visibility = "visible";
-  let X = e.pageX - 250;
-  let Y = e.pageY - 250;
-  cursor.style.top = `${Y}px`;
-  cursor.style.left = `${X}px`;
-  // console.log(cursor.style.top);
-
-  // console.log(body);
-}
-
-function cursorStop(e) {
-  cursor.style.visibility = "hidden";
-}
 
 if (day === 6) {
   console.log("Today is HOliday");
