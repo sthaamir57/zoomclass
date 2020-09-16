@@ -10,7 +10,7 @@ gsap.fromTo(
 );
 
 gsap.fromTo(
-  ".first-three-days",
+  ".first-three",
   { x: 70, opacity: 0 },
   { duration: 1, x: 0, opacity: 1, ease: "power2.out", delay: 0.2 }
 );
