@@ -15,7 +15,8 @@ const subjects = [
 const links = [
   "https://us04web.zoom.us/j/3074734435?pwd=UzcwWTNkNEg1TWgzY1ZaRU5rTFQwQT09",
   "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
-  "https://us04web.zoom.us/j/75109118527?pwd=V21NTXJNRjl2VzM1SXBiRkxNNHZ2dz09",
+  // "https://us04web.zoom.us/j/75109118527?pwd=V21NTXJNRjl2VzM1SXBiRkxNNHZ2dz09",
+  "#",
   "https://meet.google.com/kcq-uvjo-wns",
   "https://us04web.zoom.us/j/78608296344?pwd=TTRpK2RYenNhZ1NUWUozSHk5cGlTZz09",
 ];
