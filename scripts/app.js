@@ -7,17 +7,17 @@ const firstThreeDays = document.querySelector(".first-three-days");
 const lastThreeDays = document.querySelector(".last-three-days");
 const todaySubjects = document.querySelector(".today-sub");
 const subjects = [
+  "OOP",
   "Statistics",
   "Discrete Maths",
-  "OOP",
   "Microprocessor",
   "Mathematics II",
 ];
 const links = [
-  "https://us04web.zoom.us/j/3074734435?pwd=UzcwWTNkNEg1TWgzY1ZaRU5rTFQwQT09",
-  "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
   // "https://us04web.zoom.us/j/75109118527?pwd=V21NTXJNRjl2VzM1SXBiRkxNNHZ2dz09",
   "https://us04web.zoom.us/j/75109118527",
+  "https://us04web.zoom.us/j/3074734435?pwd=UzcwWTNkNEg1TWgzY1ZaRU5rTFQwQT09",
+  "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
   "https://meet.google.com/kcq-uvjo-wns",
   "https://us04web.zoom.us/j/78608296344?pwd=TTRpK2RYenNhZ1NUWUozSHk5cGlTZz09",
 ];
@@ -30,7 +30,7 @@ if (day === 6) {
 } else if (day === 0 || day === 1 || day === 2) {
   // firstSubjects.classList.remove("opacity-0");
   subFirst(day);
-  if (timeNow === 13 || timeNow === 14) {
+  if (timeNow === 9 || timeNow === 10) {
     alert("OOP password is in Sir's fb group.");
   }
 } else {
