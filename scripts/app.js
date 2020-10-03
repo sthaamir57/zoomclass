@@ -7,17 +7,17 @@ const firstThreeDays = document.querySelector(".first-three-days");
 const lastThreeDays = document.querySelector(".last-three-days");
 const todaySubjects = document.querySelector(".today-sub");
 const subjects = [
-  "Discrete Maths",
-  "Statistics",
   "OOP",
+  "Statistics",
+  "Discrete Maths",
   "Microprocessor",
   "Mathematics II",
 ];
 const links = [
-  "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
-  "https://us04web.zoom.us/j/3074734435?pwd=UzcwWTNkNEg1TWgzY1ZaRU5rTFQwQT09",
-  // "https://us04web.zoom.us/j/75109118527?pwd=V21NTXJNRjl2VzM1SXBiRkxNNHZ2dz09",
   "https://us04web.zoom.us/j/75109118527",
+  "https://us04web.zoom.us/j/3074734435?pwd=UzcwWTNkNEg1TWgzY1ZaRU5rTFQwQT09",
+  "https://us04web.zoom.us/j/76242064707?pwd=SHYzdUNpamRVdFg3NDB5M3B6QU9PQT09",
+  // "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
   "https://meet.google.com/kcq-uvjo-wns",
   "https://us04web.zoom.us/j/78608296344?pwd=TTRpK2RYenNhZ1NUWUozSHk5cGlTZz09",
 ];
