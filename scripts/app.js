@@ -30,9 +30,9 @@ if (day === 6) {
 } else if (day === 0 || day === 1 || day === 2) {
   // firstSubjects.classList.remove("opacity-0");
   subFirst(day);
-  if (timeNow === 13 || timeNow === 14) {
-    alert("OOP password is in Sir's fb group.");
-  }
+  // if (timeNow === 13 || timeNow === 14) {
+  //   alert("OOP password is in Sir's fb group.");
+  // }
 } else {
   // lastSubjects.classList.remove("opacity-0");
   subLast(day);
