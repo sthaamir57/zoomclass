@@ -19,7 +19,7 @@ const links = [
   "https://us04web.zoom.us/j/76242064707?pwd=SHYzdUNpamRVdFg3NDB5M3B6QU9PQT09",
   // "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
   "https://meet.google.com/kcq-uvjo-wns",
-  "https://us04web.zoom.us/j/71028022224?pwd=alNkRFlFSTlJaFVRL1UvTVluS3MwQT09",
+  "https://us04web.zoom.us/j/78608296344?pwd=TTRpK2RYenNhZ1NUWUozSHk5cGlTZz09",
 ];
 const hide1 = document.querySelector(".hide-1");
 const hide2 = document.querySelector(".hide-2");
