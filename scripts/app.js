@@ -12,7 +12,6 @@ const subjects = [
   "Discrete Maths",
   "Microprocessor",
   "Mathematics II",
-  "Maths[2nd Link]",
 ];
 const links = [
   "https://us04web.zoom.us/j/75109118527",
@@ -20,8 +19,7 @@ const links = [
   "https://us04web.zoom.us/j/76242064707?pwd=SHYzdUNpamRVdFg3NDB5M3B6QU9PQT09",
   // "https://zoom.us/j/7782545356?pwd=c3N2SWNQaFFWSFJIaU5ITTFYVmdGQT09",
   "https://meet.google.com/kcq-uvjo-wns",
-  "https://us04web.zoom.us/j/78608296344?pwd=TTRpK2RYenNhZ1NUWUozSHk5cGlTZz09",
-  "https://us04web.zoom.us/j/71028022224?pwd=alNkRFlFSTlJaFVRL1UvTVluS3MwQT09",
+  "https://us04web.zoom.us/j/2088548698?pwd=aDR2V2ZEQkNsTHRzUnFvWXVuQ0F6Zz09",
 ];
 const hide1 = document.querySelector(".hide-1");
 const hide2 = document.querySelector(".hide-2");
@@ -46,7 +44,7 @@ function display() {
     // }
   } else {
     // lastSubjects.classList.remove("opacity-0");
-    alert("Try maths 2nd link if 1st one doesn't work");
+    //alert("Try maths 2nd link if 1st one doesn't work");
     subLast(day);
   }
 }
@@ -66,7 +64,6 @@ function subLast(day) {
   let element = `<ul class="subjects s2">
         <li><a href="${links[3]}">${subjects[3]}</a></li>
         <li><a href="${links[4]}">${subjects[4]}</a></li>
-        <li><a href="${links[5]}">${subjects[5]}</a></li>
 </ul>`;
   hide2.style.display = "none";
   lastThreeDays.children[day - 3].classList.replace("opacity-0", "opacity-1");
