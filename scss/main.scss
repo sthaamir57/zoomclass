@@ -1,1 +1,19 @@
-@import "style";
+//@import "style";
+
+/* redireect */
+body {
+  height: 80vh;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 25px;
+  height: 50vh;
+}
+
+p a {
+  margin-left: 20px;
+}
